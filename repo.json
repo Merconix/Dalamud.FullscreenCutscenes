@@ -12,7 +12,7 @@
     "DalamudApiLevel": 15,
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "DownloadLinkInstall": "https://github.com/DukePantarei/Dalamud.FullscreenCutscenes/releases/latest/download/Dalamud.FullscreenCutscenes.dll",
-    "DownloadLinkUpdate": "https://github.com/DukePantarei/Dalamud.FullscreenCutscenes/releases/latest/download/Dalamud.FullscreenCutscenes.dll"
+    "DownloadLinkInstall": "https://github.com/DukePantarei/Dalamud.FullscreenCutscenes/releases/latest/download/Dalamud.FullscreenCutscenes.zip",
+    "DownloadLinkUpdate": "https://github.com/DukePantarei/Dalamud.FullscreenCutscenes/releases/latest/download/Dalamud.FullscreenCutscenes.zip"
   }
 ]
