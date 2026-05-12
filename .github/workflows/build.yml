@@ -31,6 +31,15 @@ jobs:
       - name: Build
         run: dotnet build --no-restore -c Release
 
+      - name: List build output
+        run: find . -name "*.dll" | grep -i fullscreen
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FullscreenCutscenes
+          path: Dalamud.FullscreenCutscenes/bin/Release/
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
