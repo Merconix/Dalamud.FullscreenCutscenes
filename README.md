@@ -4,6 +4,10 @@ A [Dalamud](https://github.com/goatcorp/Dalamud) plugin for Final Fantasy XIV th
 
 > **Note:** Because this expands the rendered viewport beyond the game's intended cutscene boundaries, you may occasionally see things you aren't supposed to — NPCs popping in at the edges, T-poses, scene geometry loading, etc. This is expected behavior and not a bug.
 
+## Download
+
+The latest release can be found on the [Releases page](https://github.com/DukePantarei/Dalamud.FullscreenCutscenes/releases/latest).
+
 ## Requirements
 
 - [Final Fantasy XIV](https://www.finalfantasyxiv.com/)
@@ -11,16 +15,9 @@ A [Dalamud](https://github.com/goatcorp/Dalamud) plugin for Final Fantasy XIV th
 
 ## Installation
 
-### Via Custom Plugin Repository *(recommended)*
-
-1. Open the Dalamud Plugin Installer with `/xlplugins` in chat.
-2. Go to **Settings → Experimental → Custom Plugin Repositories**.
-3. Add the URL https://raw.githubusercontent.com/DukePantarei/Dalamud.FullscreenCutscenes/main/repo.json and click **Save**:
-4. Search for **Ultrawide Cutscenes** in the Available Plugins tab and install it.
-
 ### Manual / Developer Install
 
-1. Clone or download this repository and build the solution in Visual Studio 2022 or JetBrains Rider (Release or Debug).
+1. Download `Dalamud.FullscreenCutscenes.dll` from the [latest release](https://github.com/DukePantarei/Dalamud.FullscreenCutscenes/releases/latest).
 2. Open Dalamud settings with `/xlsettings`, go to **Experimental**, and add the full path to `Dalamud.FullscreenCutscenes.dll` under **Dev Plugin Locations**.
 3. Open `/xlplugins`, navigate to **Dev Tools → Installed Dev Plugins**, and enable **Ultrawide Cutscenes**.
 
